@@ -1,0 +1,7 @@
+service-a:
+  version: 0.0.25
+  depends_on:
+  - hugh-nguyen/service-b
+service-b:
+  version: 0.0.2
+  depends_on: []
