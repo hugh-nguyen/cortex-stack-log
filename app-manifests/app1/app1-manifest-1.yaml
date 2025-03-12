@@ -1,6 +1,10 @@
 - app_name: app1
   service_name: service-a
   version: 0.0.30
+  depends_on:
+  - app_name: app1
+    service_name: service-b
+    version: 0.0.4
 - app_name: app1
   service_name: service-b
   version: 0.0.4
