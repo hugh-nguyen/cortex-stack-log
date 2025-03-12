@@ -1,0 +1,14 @@
+- app_name: app1
+  service_name: service-a
+  version: 0.0.32
+  depends_on:
+  - app_name: app1
+    service_name: service-b
+    version: 0.0.5
+- app_name: app1
+  service_name: service-b
+  version: 0.0.5
+  depends_on:
+  - app_name: shared-app
+    service_name: service-s
+    version: 0.0.2
