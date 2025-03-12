@@ -1,0 +1,63 @@
+- prefix: /app1/service-a
+  headers:
+    - name: App-Stack
+      match: 1
+    - name: App-Name
+      match: app1
+  cluster: app1-service-a-0-0-30
+
+- prefix: /app1/service-b
+  headers:
+    - name: App-Stack
+      match: 1
+    - name: App-Name
+      match: app1
+  cluster: app1-service-b-0-0-4
+
+- prefix: /shared/service-s
+  headers:
+    - name: App-Stack
+      match: 1
+    - name: App-Name
+      match: app1
+  cluster: shared-service-s-0-0-1
+
+- prefix: /app1/service-a
+  headers:
+    - name: App-Stack
+      match: 2
+    - name: App-Name
+      match: app1
+  cluster: app1-service-a-0-0-30
+
+- prefix: /app1/service-b
+  headers:
+    - name: App-Stack
+      match: 2
+    - name: App-Name
+      match: app1
+  cluster: app1-service-b-0-0-5
+
+- prefix: /shared/service-s
+  headers:
+    - name: App-Stack
+      match: 2
+    - name: App-Name
+      match: app1
+  cluster: shared-app-service-s-0-0-2
+
+- prefix: /app2/service-y
+  headers:
+    - name: App-Stack
+      match: 1
+    - name: App-Name
+      match: app1
+  cluster: app2-service-s-0-0-2
+
+- prefix: /shared/service-s
+  headers:
+    - name: App-Stack
+      match: 1
+    - name: App-Name
+      match: app2
+  cluster: shared-app-service-s-0-0-3

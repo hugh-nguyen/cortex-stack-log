@@ -1,10 +1,9 @@
-service-a:
-  version: 0.0.32
-  depends_on:
-  - service: app1-service-b
-    version: 0.0.5
-service-b:
+- app_name: app1
+  service_name: service-a
+  version: 0.0.30
+- app_name: app1
+  service_name: service-b
   version: 0.0.5
-  depends_on:
-  - service: shared-app-service-s
-    version: 0.0.1
+- app_name: shared-app
+  service_name: service-s
+  version: 0.0.2

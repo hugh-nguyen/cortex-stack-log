@@ -1,0 +1,6 @@
+- app_name: app2
+  service_name: service-y
+  version: 0.0.2
+- app_name: shared-app
+  service_name: service-s
+  version: 0.0.3

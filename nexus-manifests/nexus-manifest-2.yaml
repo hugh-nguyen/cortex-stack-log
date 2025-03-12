@@ -1,15 +1,15 @@
 - app_name: app1
   service_name: service-a
   version: 0.0.30
-  app_stack_version: 1
+  app_stack_version: 2
 - app_name: app1
   service_name: service-b
-  version: 0.0.4
-  app_stack_version: 1
+  version: 0.0.5
+  app_stack_version: 2
 - app_name: shared-app
   service_name: service-s
-  version: 0.0.3
-  app_stack_version: 1
+  version: 0.0.4
+  app_stack_version: 2
 - app_name: app2
   service_name: service-y
   version: 0.0.2
