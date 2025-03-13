@@ -4,4 +4,4 @@
   depends_on:
   - app: shared-app
     svc: service-s
-    ver: 0.0.1
+    ver: 0.0.4
