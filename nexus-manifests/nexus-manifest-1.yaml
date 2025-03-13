@@ -8,7 +8,7 @@
   app_stack_ver: 1
 - app: app2
   svc: service-y
-  ver: 0.0.2
+  ver: 0.0.1
   app_stack_ver: 1
 - app: shared-app
   svc: service-s
