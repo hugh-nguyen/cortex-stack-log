@@ -5,7 +5,7 @@
 - app: app1
   app_ver: 2
   svc: service-b
-  ver: 0.0.8
+  svc_ver: 0.0.8
 - app: app2
   app_ver: 1
   svc: service-y
