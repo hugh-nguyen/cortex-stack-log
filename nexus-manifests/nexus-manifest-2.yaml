@@ -12,7 +12,7 @@
   app_stack_ver: 1
 - app: shared-app
   svc: service-s
-  ver: 0.0.5
+  ver: 0.0.4
   app_stack_ver: 1
   required_by:
   - app2
