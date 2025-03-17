@@ -4,11 +4,11 @@
   depends_on:
   - app: app1
     svc: service-b
-    ver: 0.0.8
+    ver: 0.0.7
 - app: app1
   svc: service-b
-  ver: 0.0.8
+  ver: 0.0.7
   depends_on:
   - app: shared-app
     svc: service-s
-    ver: 0.0.2
+    ver: 0.0.4
